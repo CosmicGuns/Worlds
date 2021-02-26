@@ -1,0 +1,11 @@
+Areas:
+    space:
+        # What's displayed in the GUI and in messages
+        Name: '&d&lSpace'
+        # The lore of the GUI item
+        Lore:
+        - ''
+        - '&7Requires a &dSpace Pass'
+        - ''
+        - '&a&nClick to travel'
+        Location:

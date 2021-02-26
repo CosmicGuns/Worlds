@@ -1,0 +1,30 @@
+# Worlds v.1.0.0-BETA
+# Created by Velinquish <3
+
+# What will appear in front of every message sent by the plugin
+plugin-prefix: '&3&lWorlds &8» &7'
+
+# Main command for Worlds
+main-command: 'worlds'
+# Plugin aliases - alternatives to /worlds
+plugin-aliases:
+    - 'world'
+    - 'areas'
+    - 'area'
+    - 'dimensions'
+    - 'dimension'
+    
+# Permission for configuring {project.artifactId}. The %action% placeholder will be replaced with the following valid actions:
+# - open
+# - reload
+permission: 'worlds.%action%'
+
+# Permission for accessing certain areas. The %area% placeholder will be replaced with the given area.
+area-permission: 'worlds.access.%area%'
+# Permission for being able to see the area in the GUI. The %area% placeholder will be replaced with the given area.
+areas-see-permission: 'worlds.see.%area%'
+
+# Enable debug mode
+debug: true
+# Do not touch this unless you know what you are doing!
+config-version: 1
